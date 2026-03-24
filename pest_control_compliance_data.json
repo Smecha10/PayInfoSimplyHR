@@ -1,0 +1,2418 @@
+{
+  "meta": {
+    "last_updated": "March 2025",
+    "disclaimer": "This information is for strategic HR reference purposes only and does not constitute legal advice. Consult a licensed employment attorney for compliance decisions.",
+    "sources": [
+      {
+        "label": "DOL FLSA Overtime Rule 2025",
+        "url": "https://www.dol.gov/agencies/whd/flsa"
+      },
+      {
+        "label": "IRS Worker Classification Publication 15-A",
+        "url": "https://www.irs.gov/publications/p15a"
+      },
+      {
+        "label": "FL Statute 482.161 \u2014 Pest Control Employee Requirement",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2023/482.161"
+      },
+      {
+        "label": "CA AB5 Independent Contractor Law",
+        "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB5"
+      },
+      {
+        "label": "DOL State Paid Sick Leave Laws",
+        "url": "https://www.dol.gov/agencies/whd/sick-leave"
+      },
+      {
+        "label": "World Population Review \u2014 ABC Test States 2025",
+        "url": "https://worldpopulationreview.com/state-rankings/states-that-use-abc-test-for-independent-contractors"
+      },
+      {
+        "label": "NPMA HR Compliance Resources",
+        "url": "https://www.pestworld.org/"
+      }
+    ]
+  },
+  "role_compliance": {
+    "pest_control_technician": {
+      "classification": "W-2 Employee (Required in nearly all states)",
+      "flsa_status": "Non-Exempt",
+      "overtime_rule": "1.5x after 40 hrs/week (federal). CA/CO/NV also have daily OT.",
+      "key_federal_laws": [
+        "FLSA (overtime/min wage)",
+        "OSHA (chemical safety/PPE)",
+        "FIFRA (pesticide applicator)",
+        "FMLA (50+ employees)",
+        "ADA",
+        "Title VII"
+      ],
+      "key_risks": [
+        "1099 misclassification \u2014 technicians under direct supervision cannot be independent contractors",
+        "Pesticide applicator license must be current; expired licenses create liability",
+        "Off-the-clock work (drive time, pre/post shift vehicle inspection) must be compensated",
+        "Personal Protective Equipment (PPE) must be employer-provided at no cost to employee"
+      ],
+      "practical_notes": "Route technicians directed by the company as to what, where, and how to perform work are employees under all known tests. Do not use 1099 for technicians."
+    },
+    "route_manager": {
+      "classification": "W-2 Employee",
+      "flsa_status": "Depends \u2014 must meet duties test AND salary threshold ($58,656/yr as of 1/1/2025) to be exempt",
+      "overtime_rule": "If non-exempt: 1.5x after 40 hrs/wk. If exempt: no OT \u2014 but must genuinely manage 2+ employees and have authority to hire/fire.",
+      "key_federal_laws": [
+        "FLSA",
+        "NLRA (organizing rights)",
+        "FMLA",
+        "ADA",
+        "Title VII",
+        "OSHA"
+      ],
+      "key_risks": [
+        "Route managers who spend majority of time doing technician work (not managing) may be misclassified as exempt",
+        "Must document supervisory duties to support executive exemption",
+        "Salary must not be docked for partial-day absences (salaried exempt rule)"
+      ],
+      "practical_notes": "Ensure route managers truly manage a team. Having 'manager' in the title alone does not create an exemption."
+    },
+    "sales_inspector": {
+      "classification": "W-2 OR 1099 \u2014 HIGHLY STATE DEPENDENT (See W-2 vs 1099 Analysis below)",
+      "flsa_status": "May qualify for Outside Sales Exemption if: (1) primary duty is making sales, (2) customarily and regularly works away from employer's premises",
+      "overtime_rule": "If outside sales exempt: no OT requirement. If inside sales/non-exempt: OT applies.",
+      "key_federal_laws": [
+        "FLSA (outside sales exemption)",
+        "IRS Publication 15-A (contractor tests)",
+        "DOL Economic Realities Test",
+        "State ABC Tests"
+      ],
+      "key_risks": [
+        "States using ABC test make 1099 classification for sales reps extremely risky",
+        "FL law explicitly restricts 1099 for licensed pest control work",
+        "Commission-only W-2 reps must still meet minimum wage in each workweek",
+        "Written commission agreements required in NY, NJ, and many other states",
+        "Non-compete and non-solicitation agreements have varying enforceability by state"
+      ],
+      "practical_notes": "If your sales rep works exclusively for you, follows your process/scripts, and sells YOUR pest control services \u2014 they are almost certainly a W-2 in any ABC test state."
+    },
+    "branch_manager": {
+      "classification": "W-2 Employee",
+      "flsa_status": "Typically Exempt (Executive or Administrative exemption) \u2014 must meet federal $58,656/yr threshold AND duties test",
+      "overtime_rule": "Exempt \u2014 no OT. But some states have higher salary thresholds (NY, CA, WA).",
+      "key_federal_laws": [
+        "FLSA (executive exemption)",
+        "NLRA",
+        "FMLA",
+        "ADA",
+        "Title VII",
+        "EEOC",
+        "WARN Act (100+ employees)"
+      ],
+      "key_risks": [
+        "Branch managers who are 'working managers' spending most time on technician tasks may not qualify for executive exemption",
+        "Must have genuine authority: real ability to hire, fire, or recommend personnel actions",
+        "State salary thresholds may be higher than federal (NY: $64,350; CA: $66,560; WA: $67,724)"
+      ],
+      "practical_notes": "Document all management decisions. Maintain records showing supervisory responsibilities to support exempt status."
+    },
+    "office_admin": {
+      "classification": "W-2 Employee",
+      "flsa_status": "Typically Non-Exempt unless Administrative exemption applies",
+      "overtime_rule": "1.5x after 40 hrs/week. Admin exemption requires: primary duty of office/non-manual work directly related to management + exercises discretion/independent judgment on significant matters.",
+      "key_federal_laws": [
+        "FLSA",
+        "ADA",
+        "Title VII",
+        "FMLA",
+        "NLRA",
+        "State paid sick leave laws"
+      ],
+      "key_risks": [
+        "Office admins with routine duties almost never qualify for administrative exemption",
+        "Must be paid for all hours worked including overtime \u2014 no comp time in private sector",
+        "Paid sick leave requirements vary widely by state and accrual rules must be tracked"
+      ],
+      "practical_notes": "Customer service reps, schedulers, and dispatchers are virtually always non-exempt. Ensure timekeeping captures all hours including breaks properly."
+    }
+  },
+  "w2_vs_1099": {
+    "federal_framework": {
+      "irs_test": "IRS Common Law: Behavioral control, Financial control, Type of relationship",
+      "dol_test": "DOL Economic Realities Test (2025): Degree of control, profit/loss opportunity, investment, permanence, skill, integral to business",
+      "current_status": "As of May 2025, DOL reverted to pre-2024 framework \u2014 slightly more employer-friendly at federal level, but state laws still apply."
+    },
+    "state_classification": {
+      "abc_test_strict": {
+        "states": [
+          "CA",
+          "CT",
+          "DE",
+          "GA",
+          "HI",
+          "IL",
+          "IN",
+          "KS",
+          "LA",
+          "MA",
+          "MD",
+          "ME",
+          "MN",
+          "NE",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "VT",
+          "WA",
+          "WI",
+          "WV"
+        ],
+        "risk_level": "VERY HIGH",
+        "description": "Uses ABC test. Worker is an EMPLOYEE unless employer proves all 3: (A) free from control, (B) work is outside usual course of business, (C) independently established business. Because selling pest control IS the company's business, B prong is nearly impossible to meet for sales reps.",
+        "recommendation": "Use W-2. Do not attempt 1099 for sales reps in these states."
+      },
+      "multi_factor_strict": {
+        "states": [
+          "AZ",
+          "CO",
+          "FL",
+          "MI",
+          "MO",
+          "NC",
+          "NY",
+          "OH",
+          "PA",
+          "TX",
+          "VA"
+        ],
+        "risk_level": "HIGH",
+        "description": "Uses multi-factor economic realities or common law test but enforcement is aggressive. Several factors must strongly favor independence.",
+        "recommendation": "W-2 strongly preferred. 1099 only if rep truly operates independently, has multiple clients, provides own leads, sets own prices."
+      },
+      "federal_standard": {
+        "states": [
+          "AL",
+          "AK",
+          "AR",
+          "ID",
+          "IA",
+          "KY",
+          "MS",
+          "MT",
+          "NH",
+          "ND",
+          "OK",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "UT",
+          "WY"
+        ],
+        "risk_level": "MODERATE",
+        "description": "Follows federal IRS/DOL standards without additional state laws. 1099 is more defensible IF the rep controls their method, sets own hours, works for multiple companies, and isn't economically dependent on one employer.",
+        "recommendation": "Can consider 1099 with proper independent contractor agreement and documented independence. Consult legal counsel."
+      }
+    },
+    "sales_rep_checklist": [
+      {
+        "factor": "Sets own schedule",
+        "w2_indicator": "Employer dictates hours/days",
+        "1099_indicator": "Rep sets own schedule entirely"
+      },
+      {
+        "factor": "Works for multiple companies",
+        "w2_indicator": "Exclusively for your company",
+        "1099_indicator": "Has other pest control clients"
+      },
+      {
+        "factor": "Provides own leads",
+        "w2_indicator": "Company provides leads/territory",
+        "1099_indicator": "Generates own leads independently"
+      },
+      {
+        "factor": "Sets own prices",
+        "w2_indicator": "Must follow company pricing",
+        "1099_indicator": "Negotiates own deal terms"
+      },
+      {
+        "factor": "Provides own equipment",
+        "w2_indicator": "Company provides vehicle/phone/tablet",
+        "1099_indicator": "Uses own car, phone, tools"
+      },
+      {
+        "factor": "Training required",
+        "w2_indicator": "Required to attend company training",
+        "1099_indicator": "Uses own methods/expertise only"
+      },
+      {
+        "factor": "Non-compete/exclusivity",
+        "w2_indicator": "Restricted from working elsewhere",
+        "1099_indicator": "Free to work for competitors"
+      },
+      {
+        "factor": "Ongoing relationship",
+        "w2_indicator": "Indefinite continuous engagement",
+        "1099_indicator": "Project-based or defined term"
+      }
+    ],
+    "penalties_for_misclassification": [
+      "Back payroll taxes (FICA) \u2014 employer AND employee share",
+      "Unpaid overtime for all misclassified workers",
+      "State unemployment insurance contributions",
+      "Workers' comp exposure for job injuries",
+      "Penalties: up to $1,000/worker federal; state penalties vary (CA: up to $25,000/violation)",
+      "PAGA lawsuits in California \u2014 private attorneys general",
+      "Loss of pesticide license in FL if contractor found to be employee"
+    ]
+  },
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "abbr": "AL",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Alabama follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Alabama follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "AK": {
+      "name": "Alaska",
+      "abbr": "AK",
+      "at_a_glance": {
+        "min_wage": 11.91,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Alaska follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/40 hrs worked. Effective July 1, 2025. Up to 56 hrs/yr for employers 15+."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Daily OT: 1.5x after 8 hrs/day."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Alaska follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "AZ": {
+      "name": "Arizona",
+      "abbr": "AZ",
+      "at_a_glance": {
+        "min_wage": 14.7,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Arizona follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 40 hrs/yr (employers <15) or 40 hrs (15+)."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Arizona follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "AR": {
+      "name": "Arkansas",
+      "abbr": "AR",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Arkansas follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Arkansas follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "CA": {
+      "name": "California",
+      "abbr": "CA",
+      "at_a_glance": {
+        "min_wage": 16.5,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": true,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "California has the most complex employment laws in the nation. Pest control employers face strict meal/rest break requirements, PAGA exposure, and the ABC test for contractor classification.",
+      "role_notes": {
+        "pest_control_technician": "Technicians must receive 30-min unpaid meal break after 5 hrs and 10-min paid rest per 4 hrs worked. No rounding of time. Daily OT kicks in after 8 hrs.",
+        "route_manager": "Route managers directing field work are likely non-exempt and entitled to daily OT. Ensure meal period waivers are documented for shifts under 6 hrs.",
+        "sales_inspector": "Sales reps are almost impossible to classify as 1099 under AB5/ABC test unless they run their own independent pest control sales business. DLSE audits are common.",
+        "branch_manager": "Branch managers must meet CA's higher exempt salary threshold ($66,560/yr as of 1/1/2025). Misclassification as exempt when non-exempt is a major PAGA risk.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. 40 hrs/yr minimum guaranteed. 5 days usable."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Daily OT: 1.5x after 8 hrs/day; 2x after 12 hrs/day. 2x on 7th consecutive day after 8 hrs."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "AB5 (2019) + ABC test. Sales reps and technicians must be W-2. Penalties up to $25,000/violation + PAGA exposure."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "CO": {
+      "name": "Colorado",
+      "abbr": "CO",
+      "at_a_glance": {
+        "min_wage": 14.81,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": true,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Colorado follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 48 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Daily OT: 1.5x after 12 hrs/day or 12 hrs in a shift. Weekly 40-hr rule also applies."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Colorado follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "CT": {
+      "name": "Connecticut",
+      "abbr": "CT",
+      "at_a_glance": {
+        "min_wage": 16.35,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Connecticut follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/40 hrs worked (expanded 2025 to all employers). Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Connecticut follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "DE": {
+      "name": "Delaware",
+      "abbr": "DE",
+      "at_a_glance": {
+        "min_wage": 15.0,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Delaware follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Delaware follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "FL": {
+      "name": "Florida",
+      "abbr": "FL",
+      "at_a_glance": {
+        "min_wage": 14.0,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Florida law explicitly prohibits pest control ID cardholders from being classified as independent contractors unless they own their own equipment/vehicle and operate independently.",
+      "role_notes": {
+        "pest_control_technician": "FL statute 482.161 requires ID card holders to be W-2 employees under direct supervision of the licensee. 1099 technicians are a licensing violation.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Outside sales exemption may apply under FLSA if rep's primary duty is making sales away from employer's place of business and regularly works away from office.",
+        "branch_manager": "FL follows federal FLSA exempt rules; no state-specific salary threshold above federal. No state income tax benefits effective compensation.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "FL statute 482.161: pest control ID card holders MUST be W-2 employees. 1099 technicians are a licensing violation."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "GA": {
+      "name": "Georgia",
+      "abbr": "GA",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Georgia follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "ABC test but less aggressive enforcement than CA/MA. 1099 possible with strong independent contractor agreement."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "HI": {
+      "name": "Hawaii",
+      "abbr": "HI",
+      "at_a_glance": {
+        "min_wage": 14.0,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Hawaii follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Hawaii follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "ID": {
+      "name": "Idaho",
+      "abbr": "ID",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Idaho follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Idaho follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "IL": {
+      "name": "Illinois",
+      "abbr": "IL",
+      "at_a_glance": {
+        "min_wage": 15.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Illinois uses ABC test for UI purposes and has broad worker protections including Biometric Information Privacy Act (BIPA) \u2014 relevant for time-tracking fingerprint systems.",
+      "role_notes": {
+        "pest_control_technician": "IL Paid Leave Act (2024): 40 hrs/yr paid leave for any reason for all employers. One I-Day rest in 7 required.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "IL Department of Employment Security uses ABC test for UI. 1099 sales reps face high reclassification risk if working exclusively for one pest control company.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "IL Paid Leave for All Workers Act: 40 hrs/yr for any reason. 1/1/2024."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "IL ABC test for UI purposes. BIPA: biometric time clocks require written consent policy."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "IN": {
+      "name": "Indiana",
+      "abbr": "IN",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Indiana follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Indiana follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "IA": {
+      "name": "Iowa",
+      "abbr": "IA",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Iowa follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Iowa follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "KS": {
+      "name": "Kansas",
+      "abbr": "KS",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Kansas follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Kansas follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "KY": {
+      "name": "Kentucky",
+      "abbr": "KY",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Kentucky follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Kentucky follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "LA": {
+      "name": "Louisiana",
+      "abbr": "LA",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Louisiana follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Louisiana follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "ME": {
+      "name": "Maine",
+      "abbr": "ME",
+      "at_a_glance": {
+        "min_wage": 14.65,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Maine follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/40 hrs worked. Up to 40 hrs/yr. Can be used for any reason."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Maine follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MD": {
+      "name": "Maryland",
+      "abbr": "MD",
+      "at_a_glance": {
+        "min_wage": 15.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Maryland follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 64 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Maryland follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "abbr": "MA",
+      "at_a_glance": {
+        "min_wage": 15.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Massachusetts has the most aggressive ABC test in the country \u2014 the 'B' prong (outside usual course of business) is nearly impossible for pest control sales reps to meet.",
+      "role_notes": {
+        "pest_control_technician": "MA requires Sunday premium pay for retail (pest control is not retail; general OT rules apply). Earned Sick Time: 40 hrs/yr.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Classifying a pest control sales rep as 1099 in MA is extremely high risk. AG's office actively prosecutes misclassification. Must be W-2.",
+        "branch_manager": "MA Blue Laws (Sunday/holiday requirements) do not typically apply to pest control. Federal exempt threshold applies.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Strongest ABC test in nation. B-prong (outside usual course of business) makes 1099 sales reps nearly impossible."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MI": {
+      "name": "Michigan",
+      "abbr": "MI",
+      "at_a_glance": {
+        "min_wage": 10.56,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Michigan follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/35 hrs worked. Up to 72 hrs/yr (effective Feb 2025)."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Michigan follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MN": {
+      "name": "Minnesota",
+      "abbr": "MN",
+      "at_a_glance": {
+        "min_wage": 11.13,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Minnesota follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 48 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Minnesota follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MS": {
+      "name": "Mississippi",
+      "abbr": "MS",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Mississippi follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Mississippi follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MO": {
+      "name": "Missouri",
+      "abbr": "MO",
+      "at_a_glance": {
+        "min_wage": 13.75,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Missouri follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 56 hrs/yr. Effective May 1, 2025."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Missouri follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "MT": {
+      "name": "Montana",
+      "abbr": "MT",
+      "at_a_glance": {
+        "min_wage": 10.55,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Montana follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Montana follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NE": {
+      "name": "Nebraska",
+      "abbr": "NE",
+      "at_a_glance": {
+        "min_wage": 13.5,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Nebraska follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 40 hrs/yr. Effective Oct 1, 2025."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Nebraska follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NV": {
+      "name": "Nevada",
+      "abbr": "NV",
+      "at_a_glance": {
+        "min_wage": 12.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": true,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Nevada follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "0.01923 hrs/hr worked. Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Daily OT: 1.5x after 8 hrs/day if employee earns less than 1.5x NV minimum wage."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Nevada follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "abbr": "NH",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "New Hampshire follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "New Hampshire follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "abbr": "NJ",
+      "at_a_glance": {
+        "min_wage": 15.49,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "New Jersey has a 'substantially all' ABC test that closely mirrors California's approach and is among the toughest in the nation.",
+      "role_notes": {
+        "pest_control_technician": "NJ EARN Sick Leave: 40 hrs/yr. NJ requires 1 week advance notice of schedule changes for some industries \u2014 confirm if applicable to your operation size.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "NJ Sales Reps Act requires written commission contracts for reps who solicit orders within NJ. Final commission must be paid within 30 days of termination. 1099 classification is very high risk.",
+        "branch_manager": "NJ follows federal exempt salary threshold. NJ WARN Act applies to mass layoffs (100+ employees).",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "NJ ABC test + NJ Sales Reps Act requires written commission contracts and timely payment."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NM": {
+      "name": "New Mexico",
+      "abbr": "NM",
+      "at_a_glance": {
+        "min_wage": 12.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "New Mexico follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 64 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "New Mexico follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NY": {
+      "name": "New York",
+      "abbr": "NY",
+      "at_a_glance": {
+        "min_wage": 16.5,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "New York has aggressive wage enforcement via the Department of Labor. Spread of hours pay, call-in pay, and wage theft laws are strictly enforced.",
+      "role_notes": {
+        "pest_control_technician": "NY requires 1 day of rest per 7 if working in any industry. Spread-of-hours: employees must receive 1 hr minimum wage for shifts exceeding 10 hrs total spread.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "NY ABC-like multi-factor test. Commission-only sales reps must receive written commission agreements. NY Labor Law \u00a7191(c) requires timely commission payment.",
+        "branch_manager": "NY exempt salary threshold: $1,237.50/wk ($64,350/yr) in NYC/Nassau/Suffolk/Westchester; $1,161.65/wk ($60,405.80/yr) elsewhere (2025).",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 56 hrs/yr (employers 100+) or 40 hrs."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "NY enforces multi-factor test aggressively. Labor Law \u00a7191(c) governs commission payments."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "NC": {
+      "name": "North Carolina",
+      "abbr": "NC",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "North Carolina follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "North Carolina follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "ND": {
+      "name": "North Dakota",
+      "abbr": "ND",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "North Dakota follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "North Dakota follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "OH": {
+      "name": "Ohio",
+      "abbr": "OH",
+      "at_a_glance": {
+        "min_wage": 10.7,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Ohio follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Ohio follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "abbr": "OK",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Oklahoma follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Oklahoma follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "OR": {
+      "name": "Oregon",
+      "abbr": "OR",
+      "at_a_glance": {
+        "min_wage": 14.7,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Oregon follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/30 hrs worked. Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Oregon follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Pennsylvania follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Pennsylvania follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "abbr": "RI",
+      "at_a_glance": {
+        "min_wage": 14.0,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Rhode Island follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/35 hrs worked. Up to 40 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Rhode Island follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "SC": {
+      "name": "South Carolina",
+      "abbr": "SC",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "South Carolina follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "South Carolina follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "SD": {
+      "name": "South Dakota",
+      "abbr": "SD",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "South Dakota follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "South Dakota follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "TN": {
+      "name": "Tennessee",
+      "abbr": "TN",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Tennessee follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Tennessee follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "TX": {
+      "name": "Texas",
+      "abbr": "TX",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Texas is employer-friendly with no state income tax and generally follows federal FLSA rules without additional state mandates.",
+      "role_notes": {
+        "pest_control_technician": "No state paid sick leave mandate (Austin/Dallas local ordinances were preempted by 2021 law). FLSA non-exempt \u2014 1.5x OT after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Outside sales exemption applies to bona fide outside sales reps. Must primarily make sales away from office. No special state test \u2014 follows IRS common law + DOL economic realities.",
+        "branch_manager": "Follows federal $58,656/yr exempt threshold. No Texas-specific additions.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Employer-friendly. Follows federal standards. 1099 more viable if rep is truly independent."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "UT": {
+      "name": "Utah",
+      "abbr": "UT",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Utah follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Utah follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "VT": {
+      "name": "Vermont",
+      "abbr": "VT",
+      "at_a_glance": {
+        "min_wage": 14.01,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Vermont follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/52 hrs worked. Up to 48 hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Vermont follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "VA": {
+      "name": "Virginia",
+      "abbr": "VA",
+      "at_a_glance": {
+        "min_wage": 12.41,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "HIGH",
+        "contractor_test": "Multi-Factor Strict"
+      },
+      "general_notes": "Virginia follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: HIGH \u2014 uses Multi-Factor Strict. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "HIGH",
+        "test_used": "Multi-Factor Strict",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Virginia follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "WA": {
+      "name": "Washington",
+      "abbr": "WA",
+      "at_a_glance": {
+        "min_wage": 16.66,
+        "paid_sick_leave_mandate": true,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Washington has some of the strongest worker protections in the nation, including mandatory paid sick leave, PFML, and strict IC classification.",
+      "role_notes": {
+        "pest_control_technician": "WA Paid Sick Leave: 1 hr per 40 hrs worked, no cap on accrual. WA PFML applies to all employers with 1+ employees.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "WA uses multi-factor 'economic dependence' test. Commission-paid reps are presumed employees. If directing their own schedule fully and not core to business, 1099 may be possible.",
+        "branch_manager": "WA exempt threshold: $1,302.40/wk ($67,724.80/yr) as of 1/1/2025. Must perform primarily executive/admin duties.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": true,
+        "details": "1 hr/40 hrs worked. No cap on accrual. Must allow 40+ hrs/yr."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "WA uses economic dependence test. Commission reps working exclusively for one employer are presumed employees."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "Paid sick leave accrual begins: Day 1 of employment (most states)"
+      ],
+      "last_updated": "March 2025"
+    },
+    "WV": {
+      "name": "West Virginia",
+      "abbr": "WV",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "West Virginia follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "West Virginia follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": false,
+        "contractor_risk_level": "VERY HIGH",
+        "contractor_test": "ABC Test"
+      },
+      "general_notes": "Wisconsin follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: VERY HIGH \u2014 uses ABC Test. Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "VERY HIGH",
+        "test_used": "ABC Test",
+        "sales_rep_1099_viable": false,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Wisconsin follows ABC test for worker classification. 1099 for sales reps is high risk."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    },
+    "WY": {
+      "name": "Wyoming",
+      "abbr": "WY",
+      "at_a_glance": {
+        "min_wage": 7.25,
+        "paid_sick_leave_mandate": false,
+        "daily_overtime": false,
+        "no_state_income_tax": true,
+        "contractor_risk_level": "MODERATE",
+        "contractor_test": "Federal Standard (IRS/DOL)"
+      },
+      "general_notes": "Wyoming follows federal FLSA standards without significant additional state-level pest control HR mandates. Standard federal rules apply for OT, minimum wage, and worker classification.",
+      "role_notes": {
+        "pest_control_technician": "Standard FLSA non-exempt rules apply. All technicians must be W-2. OT at 1.5x after 40 hrs/week.",
+        "route_manager": "Must pass FLSA duties test and $58,656/yr salary threshold to be classified as exempt. Otherwise non-exempt with OT.",
+        "sales_inspector": "Contractor risk: MODERATE \u2014 uses Federal Standard (IRS/DOL). Outside sales exemption may apply for W-2 reps. Commission agreements should be in writing.",
+        "branch_manager": "Executive exemption typically applies if managing 2+ employees and salary meets federal threshold ($58,656/yr). Confirm state-specific threshold.",
+        "office_admin": "Almost always non-exempt. Entitled to OT after 40 hrs/week. Must track all hours carefully."
+      },
+      "paid_sick_leave": {
+        "required": false,
+        "details": "No state paid sick leave mandate. Federal FMLA (unpaid) applies for eligible employees of 50+ employee companies."
+      },
+      "overtime": {
+        "federal_rule": "1.5x pay after 40 hrs/week (FLSA)",
+        "state_additions": "Follows federal FLSA \u2014 1.5x after 40 hrs/week only."
+      },
+      "contractor_classification": {
+        "risk_level": "MODERATE",
+        "test_used": "Federal Standard (IRS/DOL)",
+        "sales_rep_1099_viable": true,
+        "technician_1099_viable": false,
+        "state_specific_notes": "Wyoming follows federal IRS/DOL standards for worker classification. Consult legal counsel before using 1099 for pest control sales reps."
+      },
+      "key_compliance_deadlines": [
+        "I-9 completion: Day 1 of work (Section 1) + within 3 business days (Section 2)",
+        "New hire reporting: Most states require within 20 days of hire",
+        "W-2 distribution: January 31 of following year",
+        "1099-NEC filing: January 31 of following year (if using contractors)",
+        "State FMLA/leave: Check state law for state-specific family leave programs"
+      ],
+      "last_updated": "March 2025"
+    }
+  }
+}

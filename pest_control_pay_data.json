@@ -1,0 +1,4211 @@
+{
+  "meta": {
+    "last_updated": "March 2025",
+    "national_baselines": {
+      "pest_control_technician": {
+        "median": 44730,
+        "low": 32460,
+        "high": 61410,
+        "hourly": 21.51
+      },
+      "route_manager": {
+        "median": 52567,
+        "low": 38000,
+        "high": 68000,
+        "hourly": 25.27
+      },
+      "sales_inspector": {
+        "median": 58000,
+        "low": 40000,
+        "high": 91900,
+        "hourly": 27.88
+      },
+      "branch_manager": {
+        "median": 73650,
+        "low": 55000,
+        "high": 103380,
+        "hourly": 35.41
+      },
+      "office_admin": {
+        "median": 40500,
+        "low": 30000,
+        "high": 54000,
+        "hourly": 19.47
+      }
+    },
+    "sources": [
+      {
+        "label": "BLS OEWS May 2024",
+        "url": "https://www.bls.gov/oes/current/oes372021.htm"
+      },
+      {
+        "label": "FieldRoutes/Payscale 2025 State Salary Report",
+        "url": "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+      },
+      {
+        "label": "Salary.com 2026 Pest Control Roles",
+        "url": "https://www.salary.com/research/salary/benchmark/pest-control-branch-manager-salary"
+      },
+      {
+        "label": "Indeed Pest Control Salaries",
+        "url": "https://www.indeed.com/career/pest-control-technician/salaries"
+      },
+      {
+        "label": "ZipRecruiter Pest Control Salaries",
+        "url": "https://www.ziprecruiter.com/Salaries/Pest-Control-Salary--in-USA"
+      }
+    ]
+  },
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "abbr": "AL",
+      "licensing": {
+        "body": "Alabama Dept of Agriculture & Industries",
+        "license_required": true,
+        "continuing_education": "8 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.agi.alabama.gov/pesticides"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 40300,
+          "range_low": 29200,
+          "range_high": 55300,
+          "median_hourly": 19.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 47300,
+          "range_low": 34200,
+          "range_high": 61200,
+          "median_hourly": 22.74,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 52200,
+          "range_low": 36000,
+          "range_high": 82700,
+          "median_hourly": 25.1,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 66300,
+          "range_low": 49500,
+          "range_high": 93000,
+          "median_hourly": 31.88,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 36400,
+          "range_low": 27000,
+          "range_high": 48600,
+          "median_hourly": 17.5,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "AK": {
+      "name": "Alaska",
+      "abbr": "AK",
+      "licensing": {
+        "body": "Alaska Dept of Environmental Conservation",
+        "license_required": true,
+        "continuing_education": "4 hrs/yr",
+        "reciprocity": "None",
+        "regulatory_url": "https://dec.alaska.gov/eh/pesticides/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 47000,
+          "range_low": 34100,
+          "range_high": 64500,
+          "median_hourly": 22.6,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 55200,
+          "range_low": 39900,
+          "range_high": 71400,
+          "median_hourly": 26.54,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 60900,
+          "range_low": 42000,
+          "range_high": 96500,
+          "median_hourly": 29.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 77300,
+          "range_low": 57800,
+          "range_high": 108500,
+          "median_hourly": 37.16,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 42500,
+          "range_low": 31500,
+          "range_high": 56700,
+          "median_hourly": 20.43,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "AZ": {
+      "name": "Arizona",
+      "abbr": "AZ",
+      "licensing": {
+        "body": "Arizona Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "4 hrs/2 yrs",
+        "reciprocity": "Reciprocity with select states",
+        "regulatory_url": "https://agriculture.az.gov/pesticides-fertilizers"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 46100,
+          "range_low": 33400,
+          "range_high": 63300,
+          "median_hourly": 22.16,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 54100,
+          "range_low": 39100,
+          "range_high": 70000,
+          "median_hourly": 26.01,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 59700,
+          "range_low": 41200,
+          "range_high": 94700,
+          "median_hourly": 28.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 75900,
+          "range_low": 56600,
+          "range_high": 106500,
+          "median_hourly": 36.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 41700,
+          "range_low": 30900,
+          "range_high": 55600,
+          "median_hourly": 20.05,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "AR": {
+      "name": "Arkansas",
+      "abbr": "AR",
+      "licensing": {
+        "body": "Arkansas State Plant Board",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.aspb.ar.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 39800,
+          "range_low": 28900,
+          "range_high": 54700,
+          "median_hourly": 19.13,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 46800,
+          "range_low": 33800,
+          "range_high": 60500,
+          "median_hourly": 22.5,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 51600,
+          "range_low": 35600,
+          "range_high": 81800,
+          "median_hourly": 24.81,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 65500,
+          "range_low": 49000,
+          "range_high": 92000,
+          "median_hourly": 31.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 36000,
+          "range_low": 26700,
+          "range_high": 48100,
+          "median_hourly": 17.31,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "CA": {
+      "name": "California",
+      "abbr": "CA",
+      "licensing": {
+        "body": "California Dept of Pesticide Regulation",
+        "license_required": true,
+        "continuing_education": "20 hrs/2 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.cdpr.ca.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 55900,
+          "range_low": 40600,
+          "range_high": 76800,
+          "median_hourly": 26.88,
+          "notes": "High demand in Southern CA; bilingual techs often earn $1-2/hr above range.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 65700,
+          "range_low": 47500,
+          "range_high": 85000,
+          "median_hourly": 31.59,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 72500,
+          "range_low": 50000,
+          "range_high": 114900,
+          "median_hourly": 34.86,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 92100,
+          "range_low": 68800,
+          "range_high": 129200,
+          "median_hourly": 44.28,
+          "notes": "CA requires pest control businesses to carry $500,000 general liability.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 50600,
+          "range_low": 37500,
+          "range_high": 67500,
+          "median_hourly": 24.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "CO": {
+      "name": "Colorado",
+      "abbr": "CO",
+      "licensing": {
+        "body": "Colorado Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://ag.colorado.gov/plants/pesticides"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 49200,
+          "range_low": 35700,
+          "range_high": 67600,
+          "median_hourly": 23.65,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 57800,
+          "range_low": 41800,
+          "range_high": 74800,
+          "median_hourly": 27.79,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 63800,
+          "range_low": 44000,
+          "range_high": 101100,
+          "median_hourly": 30.67,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 81000,
+          "range_low": 60500,
+          "range_high": 113700,
+          "median_hourly": 38.94,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 44600,
+          "range_low": 33000,
+          "range_high": 59400,
+          "median_hourly": 21.44,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "CT": {
+      "name": "Connecticut",
+      "abbr": "CT",
+      "licensing": {
+        "body": "CT Dept of Energy & Environmental Protection",
+        "license_required": true,
+        "continuing_education": "30 hrs/3 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://portal.ct.gov/DEEP"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 51400,
+          "range_low": 37300,
+          "range_high": 70600,
+          "median_hourly": 24.71,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 60500,
+          "range_low": 43700,
+          "range_high": 78200,
+          "median_hourly": 29.09,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 66700,
+          "range_low": 46000,
+          "range_high": 105700,
+          "median_hourly": 32.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 84700,
+          "range_low": 63200,
+          "range_high": 118900,
+          "median_hourly": 40.72,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 46600,
+          "range_low": 34500,
+          "range_high": 62100,
+          "median_hourly": 22.4,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "DE": {
+      "name": "Delaware",
+      "abbr": "DE",
+      "licensing": {
+        "body": "Delaware Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "5 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://agriculture.delaware.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 47400,
+          "range_low": 34400,
+          "range_high": 65100,
+          "median_hourly": 22.79,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 55700,
+          "range_low": 40300,
+          "range_high": 72100,
+          "median_hourly": 26.78,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 61500,
+          "range_low": 42400,
+          "range_high": 97400,
+          "median_hourly": 29.57,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 78100,
+          "range_low": 58300,
+          "range_high": 109600,
+          "median_hourly": 37.55,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 42900,
+          "range_low": 31800,
+          "range_high": 57200,
+          "median_hourly": 20.62,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "FL": {
+      "name": "Florida",
+      "abbr": "FL",
+      "licensing": {
+        "body": "Florida Dept of Agriculture & Consumer Services",
+        "license_required": true,
+        "continuing_education": "4 hrs/yr",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.fdacs.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 46500,
+          "range_low": 33800,
+          "range_high": 63900,
+          "median_hourly": 22.36,
+          "notes": "Year-round pest pressure supports consistent demand; WDO/termite license commands premium.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 54700,
+          "range_low": 39500,
+          "range_high": 70700,
+          "median_hourly": 26.3,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 60300,
+          "range_low": 41600,
+          "range_high": 95600,
+          "median_hourly": 28.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 76600,
+          "range_low": 57200,
+          "range_high": 107500,
+          "median_hourly": 36.83,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 42100,
+          "range_low": 31200,
+          "range_high": 56200,
+          "median_hourly": 20.24,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "GA": {
+      "name": "Georgia",
+      "abbr": "GA",
+      "licensing": {
+        "body": "Georgia Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://agr.georgia.gov/pesticides"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 45200,
+          "range_low": 32800,
+          "range_high": 62000,
+          "median_hourly": 21.73,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 53100,
+          "range_low": 38400,
+          "range_high": 68700,
+          "median_hourly": 25.53,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 58600,
+          "range_low": 40400,
+          "range_high": 92800,
+          "median_hourly": 28.17,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 74400,
+          "range_low": 55600,
+          "range_high": 104400,
+          "median_hourly": 35.77,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40900,
+          "range_low": 30300,
+          "range_high": 54500,
+          "median_hourly": 19.66,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "HI": {
+      "name": "Hawaii",
+      "abbr": "HI",
+      "licensing": {
+        "body": "Hawaii Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "10 hrs/2 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://hdoa.hawaii.gov/pi/pest/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 51000,
+          "range_low": 37000,
+          "range_high": 70000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 59900,
+          "range_low": 43300,
+          "range_high": 77500,
+          "median_hourly": 28.8,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 66100,
+          "range_low": 45600,
+          "range_high": 104800,
+          "median_hourly": 31.78,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 84000,
+          "range_low": 62700,
+          "range_high": 117900,
+          "median_hourly": 40.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 46200,
+          "range_low": 34200,
+          "range_high": 61600,
+          "median_hourly": 22.21,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "ID": {
+      "name": "Idaho",
+      "abbr": "ID",
+      "licensing": {
+        "body": "Idaho State Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://agri.idaho.gov/pesticides"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43800,
+          "range_low": 31800,
+          "range_high": 60200,
+          "median_hourly": 21.06,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51500,
+          "range_low": 37200,
+          "range_high": 66600,
+          "median_hourly": 24.76,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56800,
+          "range_low": 39200,
+          "range_high": 90100,
+          "median_hourly": 27.31,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 72200,
+          "range_low": 53900,
+          "range_high": 101300,
+          "median_hourly": 34.71,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39700,
+          "range_low": 29400,
+          "range_high": 52900,
+          "median_hourly": 19.09,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "IL": {
+      "name": "Illinois",
+      "abbr": "IL",
+      "licensing": {
+        "body": "Illinois Dept of Public Health",
+        "license_required": true,
+        "continuing_education": "8 hrs/yr",
+        "reciprocity": "None",
+        "regulatory_url": "https://dph.illinois.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 48300,
+          "range_low": 35100,
+          "range_high": 66300,
+          "median_hourly": 23.22,
+          "notes": "Chicago metro significantly above downstate wages; consider metro vs rural split.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 56800,
+          "range_low": 41000,
+          "range_high": 73400,
+          "median_hourly": 27.31,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 62600,
+          "range_low": 43200,
+          "range_high": 99300,
+          "median_hourly": 30.1,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 79500,
+          "range_low": 59400,
+          "range_high": 111700,
+          "median_hourly": 38.22,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 43700,
+          "range_low": 32400,
+          "range_high": 58300,
+          "median_hourly": 21.01,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "IN": {
+      "name": "Indiana",
+      "abbr": "IN",
+      "licensing": {
+        "body": "Indiana State Chemist",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.isco.purdue.edu/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43400,
+          "range_low": 31500,
+          "range_high": 59600,
+          "median_hourly": 20.87,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51000,
+          "range_low": 36900,
+          "range_high": 66000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56300,
+          "range_low": 38800,
+          "range_high": 89100,
+          "median_hourly": 27.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 71400,
+          "range_low": 53400,
+          "range_high": 100300,
+          "median_hourly": 34.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39300,
+          "range_low": 29100,
+          "range_high": 52400,
+          "median_hourly": 18.89,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "IA": {
+      "name": "Iowa",
+      "abbr": "IA",
+      "licensing": {
+        "body": "Iowa Dept of Agriculture & Land Stewardship",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://iowaagriculture.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43400,
+          "range_low": 31500,
+          "range_high": 59600,
+          "median_hourly": 20.87,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51000,
+          "range_low": 36900,
+          "range_high": 66000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56300,
+          "range_low": 38800,
+          "range_high": 89100,
+          "median_hourly": 27.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 71400,
+          "range_low": 53400,
+          "range_high": 100300,
+          "median_hourly": 34.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39300,
+          "range_low": 29100,
+          "range_high": 52400,
+          "median_hourly": 18.89,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "KS": {
+      "name": "Kansas",
+      "abbr": "KS",
+      "licensing": {
+        "body": "Kansas Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://www.agriculture.ks.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 42500,
+          "range_low": 30800,
+          "range_high": 58300,
+          "median_hourly": 20.43,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 49900,
+          "range_low": 36100,
+          "range_high": 64600,
+          "median_hourly": 23.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 55100,
+          "range_low": 38000,
+          "range_high": 87300,
+          "median_hourly": 26.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 70000,
+          "range_low": 52200,
+          "range_high": 98200,
+          "median_hourly": 33.65,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 38500,
+          "range_low": 28500,
+          "range_high": 51300,
+          "median_hourly": 18.51,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "KY": {
+      "name": "Kentucky",
+      "abbr": "KY",
+      "licensing": {
+        "body": "Kentucky Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.kyagr.com/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 41600,
+          "range_low": 30200,
+          "range_high": 57100,
+          "median_hourly": 20.0,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 48900,
+          "range_low": 35300,
+          "range_high": 63200,
+          "median_hourly": 23.51,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 53900,
+          "range_low": 37200,
+          "range_high": 85500,
+          "median_hourly": 25.91,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 68500,
+          "range_low": 51200,
+          "range_high": 96100,
+          "median_hourly": 32.93,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 37700,
+          "range_low": 27900,
+          "range_high": 50200,
+          "median_hourly": 18.12,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "LA": {
+      "name": "Louisiana",
+      "abbr": "LA",
+      "licensing": {
+        "body": "Louisiana Dept of Agriculture & Forestry",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.ldaf.state.la.us/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 42000,
+          "range_low": 30500,
+          "range_high": 57700,
+          "median_hourly": 20.19,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 49400,
+          "range_low": 35700,
+          "range_high": 63900,
+          "median_hourly": 23.75,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 54500,
+          "range_low": 37600,
+          "range_high": 86400,
+          "median_hourly": 26.2,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 69200,
+          "range_low": 51700,
+          "range_high": 97200,
+          "median_hourly": 33.27,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 38100,
+          "range_low": 28200,
+          "range_high": 50800,
+          "median_hourly": 18.32,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "ME": {
+      "name": "Maine",
+      "abbr": "ME",
+      "licensing": {
+        "body": "Maine Board of Pesticides Control",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.maine.gov/dacf/php/pesticides/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 45200,
+          "range_low": 32800,
+          "range_high": 62000,
+          "median_hourly": 21.73,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 53100,
+          "range_low": 38400,
+          "range_high": 68700,
+          "median_hourly": 25.53,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 58600,
+          "range_low": 40400,
+          "range_high": 92800,
+          "median_hourly": 28.17,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 74400,
+          "range_low": 55600,
+          "range_high": 104400,
+          "median_hourly": 35.77,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40900,
+          "range_low": 30300,
+          "range_high": 54500,
+          "median_hourly": 19.66,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MD": {
+      "name": "Maryland",
+      "abbr": "MD",
+      "licensing": {
+        "body": "Maryland Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://mda.maryland.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 50100,
+          "range_low": 36400,
+          "range_high": 68800,
+          "median_hourly": 24.09,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 58900,
+          "range_low": 42600,
+          "range_high": 76200,
+          "median_hourly": 28.32,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 65000,
+          "range_low": 44800,
+          "range_high": 102900,
+          "median_hourly": 31.25,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 82500,
+          "range_low": 61600,
+          "range_high": 115800,
+          "median_hourly": 39.66,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 45400,
+          "range_low": 33600,
+          "range_high": 60500,
+          "median_hourly": 21.83,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "abbr": "MA",
+      "licensing": {
+        "body": "MA Dept of Agricultural Resources",
+        "license_required": true,
+        "continuing_education": "15 hrs/2 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.mass.gov/pesticides"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 54100,
+          "range_low": 39300,
+          "range_high": 74300,
+          "median_hourly": 26.01,
+          "notes": "Strong union influence in eastern MA suppresses some wage growth.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 63600,
+          "range_low": 46000,
+          "range_high": 82300,
+          "median_hourly": 30.58,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 70200,
+          "range_low": 48400,
+          "range_high": 111200,
+          "median_hourly": 33.75,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 89100,
+          "range_low": 66600,
+          "range_high": 125100,
+          "median_hourly": 42.84,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 49000,
+          "range_low": 36300,
+          "range_high": 65300,
+          "median_hourly": 23.56,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MI": {
+      "name": "Michigan",
+      "abbr": "MI",
+      "licensing": {
+        "body": "Michigan Dept of Agriculture & Rural Dev.",
+        "license_required": true,
+        "continuing_education": "15 hrs/3 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.michigan.gov/mdard"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 46100,
+          "range_low": 33400,
+          "range_high": 63300,
+          "median_hourly": 22.16,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 54100,
+          "range_low": 39100,
+          "range_high": 70000,
+          "median_hourly": 26.01,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 59700,
+          "range_low": 41200,
+          "range_high": 94700,
+          "median_hourly": 28.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 75900,
+          "range_low": 56600,
+          "range_high": 106500,
+          "median_hourly": 36.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 41700,
+          "range_low": 30900,
+          "range_high": 55600,
+          "median_hourly": 20.05,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MN": {
+      "name": "Minnesota",
+      "abbr": "MN",
+      "licensing": {
+        "body": "Minnesota Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://www.mda.state.mn.us/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 47900,
+          "range_low": 34700,
+          "range_high": 65700,
+          "median_hourly": 23.03,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 56200,
+          "range_low": 40700,
+          "range_high": 72800,
+          "median_hourly": 27.02,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 62100,
+          "range_low": 42800,
+          "range_high": 98300,
+          "median_hourly": 29.86,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 78800,
+          "range_low": 58800,
+          "range_high": 110600,
+          "median_hourly": 37.88,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 43300,
+          "range_low": 32100,
+          "range_high": 57800,
+          "median_hourly": 20.82,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MS": {
+      "name": "Mississippi",
+      "abbr": "MS",
+      "licensing": {
+        "body": "Mississippi Dept of Agriculture & Commerce",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.mdac.ms.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 39400,
+          "range_low": 28600,
+          "range_high": 54000,
+          "median_hourly": 18.94,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 46300,
+          "range_low": 33400,
+          "range_high": 59800,
+          "median_hourly": 22.26,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 51000,
+          "range_low": 35200,
+          "range_high": 80900,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 64800,
+          "range_low": 48400,
+          "range_high": 91000,
+          "median_hourly": 31.15,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 35600,
+          "range_low": 26400,
+          "range_high": 47500,
+          "median_hourly": 17.12,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MO": {
+      "name": "Missouri",
+      "abbr": "MO",
+      "licensing": {
+        "body": "Missouri Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://agriculture.mo.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 42900,
+          "range_low": 31200,
+          "range_high": 59000,
+          "median_hourly": 20.62,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 50500,
+          "range_low": 36500,
+          "range_high": 65300,
+          "median_hourly": 24.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 55700,
+          "range_low": 38400,
+          "range_high": 88200,
+          "median_hourly": 26.78,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 70700,
+          "range_low": 52800,
+          "range_high": 99200,
+          "median_hourly": 33.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 38900,
+          "range_low": 28800,
+          "range_high": 51800,
+          "median_hourly": 18.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "MT": {
+      "name": "Montana",
+      "abbr": "MT",
+      "licensing": {
+        "body": "Montana Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "4 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://agr.mt.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43400,
+          "range_low": 31500,
+          "range_high": 59600,
+          "median_hourly": 20.87,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51000,
+          "range_low": 36900,
+          "range_high": 66000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56300,
+          "range_low": 38800,
+          "range_high": 89100,
+          "median_hourly": 27.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 71400,
+          "range_low": 53400,
+          "range_high": 100300,
+          "median_hourly": 34.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39300,
+          "range_low": 29100,
+          "range_high": 52400,
+          "median_hourly": 18.89,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NE": {
+      "name": "Nebraska",
+      "abbr": "NE",
+      "licensing": {
+        "body": "Nebraska Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://nda.nebraska.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43400,
+          "range_low": 31500,
+          "range_high": 59600,
+          "median_hourly": 20.87,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51000,
+          "range_low": 36900,
+          "range_high": 66000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56300,
+          "range_low": 38800,
+          "range_high": 89100,
+          "median_hourly": 27.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 71400,
+          "range_low": 53400,
+          "range_high": 100300,
+          "median_hourly": 34.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39300,
+          "range_low": 29100,
+          "range_high": 52400,
+          "median_hourly": 18.89,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NV": {
+      "name": "Nevada",
+      "abbr": "NV",
+      "licensing": {
+        "body": "Nevada Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://agri.nv.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 47000,
+          "range_low": 34100,
+          "range_high": 64500,
+          "median_hourly": 22.6,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 55200,
+          "range_low": 39900,
+          "range_high": 71400,
+          "median_hourly": 26.54,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 60900,
+          "range_low": 42000,
+          "range_high": 96500,
+          "median_hourly": 29.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 77300,
+          "range_low": 57800,
+          "range_high": 108500,
+          "median_hourly": 37.16,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 42500,
+          "range_low": 31500,
+          "range_high": 56700,
+          "median_hourly": 20.43,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "abbr": "NH",
+      "licensing": {
+        "body": "NH Dept of Agriculture, Markets & Food",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.agriculture.nh.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 53200,
+          "range_low": 38600,
+          "range_high": 73100,
+          "median_hourly": 25.58,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 62600,
+          "range_low": 45200,
+          "range_high": 80900,
+          "median_hourly": 30.1,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 69000,
+          "range_low": 47600,
+          "range_high": 109400,
+          "median_hourly": 33.17,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 87600,
+          "range_low": 65400,
+          "range_high": 123000,
+          "median_hourly": 42.12,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 48200,
+          "range_low": 35700,
+          "range_high": 64300,
+          "median_hourly": 23.17,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "abbr": "NJ",
+      "licensing": {
+        "body": "NJ Dept of Environmental Protection",
+        "license_required": true,
+        "continuing_education": "30 hrs/2 yrs",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.nj.gov/dep/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 55000,
+          "range_low": 39900,
+          "range_high": 75500,
+          "median_hourly": 26.44,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 64700,
+          "range_low": 46700,
+          "range_high": 83600,
+          "median_hourly": 31.11,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 71300,
+          "range_low": 49200,
+          "range_high": 113000,
+          "median_hourly": 34.28,
+          "notes": "High cost of living; commission structures heavily impact total compensation.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 90600,
+          "range_low": 67600,
+          "range_high": 127200,
+          "median_hourly": 43.56,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 49800,
+          "range_low": 36900,
+          "range_high": 66400,
+          "median_hourly": 23.94,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NM": {
+      "name": "New Mexico",
+      "abbr": "NM",
+      "licensing": {
+        "body": "New Mexico Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://nmda.nmsu.edu/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 42900,
+          "range_low": 31200,
+          "range_high": 59000,
+          "median_hourly": 20.62,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 50500,
+          "range_low": 36500,
+          "range_high": 65300,
+          "median_hourly": 24.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 55700,
+          "range_low": 38400,
+          "range_high": 88200,
+          "median_hourly": 26.78,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 70700,
+          "range_low": 52800,
+          "range_high": 99200,
+          "median_hourly": 33.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 38900,
+          "range_low": 28800,
+          "range_high": 51800,
+          "median_hourly": 18.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NY": {
+      "name": "New York",
+      "abbr": "NY",
+      "licensing": {
+        "body": "NY Dept of Environmental Conservation",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.dec.ny.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 53700,
+          "range_low": 39000,
+          "range_high": 73700,
+          "median_hourly": 25.82,
+          "notes": "NYC-area technicians often earn $5,000-$10,000 above listed state median.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 63100,
+          "range_low": 45600,
+          "range_high": 81600,
+          "median_hourly": 30.34,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 69600,
+          "range_low": 48000,
+          "range_high": 110300,
+          "median_hourly": 33.46,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 88400,
+          "range_low": 66000,
+          "range_high": 124100,
+          "median_hourly": 42.5,
+          "notes": "NYC metro significantly skews statewide average upward.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 48600,
+          "range_low": 36000,
+          "range_high": 64800,
+          "median_hourly": 23.37,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "NC": {
+      "name": "North Carolina",
+      "abbr": "NC",
+      "licensing": {
+        "body": "NC Dept of Agriculture & Consumer Services",
+        "license_required": true,
+        "continuing_education": "4 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.ncagr.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 44300,
+          "range_low": 32100,
+          "range_high": 60800,
+          "median_hourly": 21.3,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 52000,
+          "range_low": 37600,
+          "range_high": 67300,
+          "median_hourly": 25.0,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 57400,
+          "range_low": 39600,
+          "range_high": 91000,
+          "median_hourly": 27.6,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 72900,
+          "range_low": 54400,
+          "range_high": 102300,
+          "median_hourly": 35.05,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40100,
+          "range_low": 29700,
+          "range_high": 53500,
+          "median_hourly": 19.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "ND": {
+      "name": "North Dakota",
+      "abbr": "ND",
+      "licensing": {
+        "body": "ND Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://www.nd.gov/ndda/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 44300,
+          "range_low": 32100,
+          "range_high": 60800,
+          "median_hourly": 21.3,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 52000,
+          "range_low": 37600,
+          "range_high": 67300,
+          "median_hourly": 25.0,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 57400,
+          "range_low": 39600,
+          "range_high": 91000,
+          "median_hourly": 27.6,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 72900,
+          "range_low": 54400,
+          "range_high": 102300,
+          "median_hourly": 35.05,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40100,
+          "range_low": 29700,
+          "range_high": 53500,
+          "median_hourly": 19.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "OH": {
+      "name": "Ohio",
+      "abbr": "OH",
+      "licensing": {
+        "body": "Ohio Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://agri.ohio.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 44700,
+          "range_low": 32500,
+          "range_high": 61400,
+          "median_hourly": 21.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 52600,
+          "range_low": 38000,
+          "range_high": 68000,
+          "median_hourly": 25.29,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 58000,
+          "range_low": 40000,
+          "range_high": 91900,
+          "median_hourly": 27.88,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 73600,
+          "range_low": 55000,
+          "range_high": 103400,
+          "median_hourly": 35.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40500,
+          "range_low": 30000,
+          "range_high": 54000,
+          "median_hourly": 19.47,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "abbr": "OK",
+      "licensing": {
+        "body": "Oklahoma Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://www.oda.state.ok.us/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 41600,
+          "range_low": 30200,
+          "range_high": 57100,
+          "median_hourly": 20.0,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 48900,
+          "range_low": 35300,
+          "range_high": 63200,
+          "median_hourly": 23.51,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 53900,
+          "range_low": 37200,
+          "range_high": 85500,
+          "median_hourly": 25.91,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 68500,
+          "range_low": 51200,
+          "range_high": 96100,
+          "median_hourly": 32.93,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 37700,
+          "range_low": 27900,
+          "range_high": 50200,
+          "median_hourly": 18.12,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "OR": {
+      "name": "Oregon",
+      "abbr": "OR",
+      "licensing": {
+        "body": "Oregon Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://www.oregon.gov/ODA/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 48800,
+          "range_low": 35400,
+          "range_high": 66900,
+          "median_hourly": 23.46,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 57300,
+          "range_low": 41400,
+          "range_high": 74100,
+          "median_hourly": 27.55,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 63200,
+          "range_low": 43600,
+          "range_high": 100200,
+          "median_hourly": 30.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 80300,
+          "range_low": 60000,
+          "range_high": 112700,
+          "median_hourly": 38.61,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 44100,
+          "range_low": 32700,
+          "range_high": 58900,
+          "median_hourly": 21.2,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "licensing": {
+        "body": "PA Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.agriculture.pa.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 46500,
+          "range_low": 33800,
+          "range_high": 63900,
+          "median_hourly": 22.36,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 54700,
+          "range_low": 39500,
+          "range_high": 70700,
+          "median_hourly": 26.3,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 60300,
+          "range_low": 41600,
+          "range_high": 95600,
+          "median_hourly": 28.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 76600,
+          "range_low": 57200,
+          "range_high": 107500,
+          "median_hourly": 36.83,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 42100,
+          "range_low": 31200,
+          "range_high": 56200,
+          "median_hourly": 20.24,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "abbr": "RI",
+      "licensing": {
+        "body": "RI Dept of Environmental Management",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://dem.ri.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 49200,
+          "range_low": 35700,
+          "range_high": 67600,
+          "median_hourly": 23.65,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 57800,
+          "range_low": 41800,
+          "range_high": 74800,
+          "median_hourly": 27.79,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 63800,
+          "range_low": 44000,
+          "range_high": 101100,
+          "median_hourly": 30.67,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 81000,
+          "range_low": 60500,
+          "range_high": 113700,
+          "median_hourly": 38.94,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 44600,
+          "range_low": 33000,
+          "range_high": 59400,
+          "median_hourly": 21.44,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "SC": {
+      "name": "South Carolina",
+      "abbr": "SC",
+      "licensing": {
+        "body": "SC Dept of Pesticide Regulation",
+        "license_required": true,
+        "continuing_education": "8 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.clemson.edu/public/regulatory/pesticide-regulation/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 42900,
+          "range_low": 31200,
+          "range_high": 59000,
+          "median_hourly": 20.62,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 50500,
+          "range_low": 36500,
+          "range_high": 65300,
+          "median_hourly": 24.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 55700,
+          "range_low": 38400,
+          "range_high": 88200,
+          "median_hourly": 26.78,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 70700,
+          "range_low": 52800,
+          "range_high": 99200,
+          "median_hourly": 33.99,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 38900,
+          "range_low": 28800,
+          "range_high": 51800,
+          "median_hourly": 18.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "SD": {
+      "name": "South Dakota",
+      "abbr": "SD",
+      "licensing": {
+        "body": "SD Dept of Agriculture & Natural Resources",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://danr.sd.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 40300,
+          "range_low": 29200,
+          "range_high": 55300,
+          "median_hourly": 19.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 47300,
+          "range_low": 34200,
+          "range_high": 61200,
+          "median_hourly": 22.74,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 52200,
+          "range_low": 36000,
+          "range_high": 82700,
+          "median_hourly": 25.1,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 66300,
+          "range_low": 49500,
+          "range_high": 93000,
+          "median_hourly": 31.88,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 36400,
+          "range_low": 27000,
+          "range_high": 48600,
+          "median_hourly": 17.5,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "TN": {
+      "name": "Tennessee",
+      "abbr": "TN",
+      "licensing": {
+        "body": "TN Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.tn.gov/agriculture/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 43400,
+          "range_low": 31500,
+          "range_high": 59600,
+          "median_hourly": 20.87,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 51000,
+          "range_low": 36900,
+          "range_high": 66000,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 56300,
+          "range_low": 38800,
+          "range_high": 89100,
+          "median_hourly": 27.07,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 71400,
+          "range_low": 53400,
+          "range_high": 100300,
+          "median_hourly": 34.33,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 39300,
+          "range_low": 29100,
+          "range_high": 52400,
+          "median_hourly": 18.89,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "TX": {
+      "name": "Texas",
+      "abbr": "TX",
+      "licensing": {
+        "body": "Texas Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "15 hrs/yr",
+        "reciprocity": "None",
+        "regulatory_url": "https://www.texasagriculture.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 45200,
+          "range_low": 32800,
+          "range_high": 62000,
+          "median_hourly": 21.73,
+          "notes": "No state income tax increases effective take-home pay.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 53100,
+          "range_low": 38400,
+          "range_high": 68700,
+          "median_hourly": 25.53,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 58600,
+          "range_low": 40400,
+          "range_high": 92800,
+          "median_hourly": 28.17,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 74400,
+          "range_low": 55600,
+          "range_high": 104400,
+          "median_hourly": 35.77,
+          "notes": "Large markets in Dallas, Houston, and Austin drive strong branch manager demand.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 40900,
+          "range_low": 30300,
+          "range_high": 54500,
+          "median_hourly": 19.66,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "UT": {
+      "name": "Utah",
+      "abbr": "UT",
+      "licensing": {
+        "body": "Utah Dept of Agriculture & Food",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://ag.utah.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 46100,
+          "range_low": 33400,
+          "range_high": 63300,
+          "median_hourly": 22.16,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 54100,
+          "range_low": 39100,
+          "range_high": 70000,
+          "median_hourly": 26.01,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 59700,
+          "range_low": 41200,
+          "range_high": 94700,
+          "median_hourly": 28.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 75900,
+          "range_low": 56600,
+          "range_high": 106500,
+          "median_hourly": 36.49,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 41700,
+          "range_low": 30900,
+          "range_high": 55600,
+          "median_hourly": 20.05,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "VT": {
+      "name": "Vermont",
+      "abbr": "VT",
+      "licensing": {
+        "body": "VT Agency of Agriculture, Food & Markets",
+        "license_required": true,
+        "continuing_education": "10 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://agriculture.vermont.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 47900,
+          "range_low": 34700,
+          "range_high": 65700,
+          "median_hourly": 23.03,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 56200,
+          "range_low": 40700,
+          "range_high": 72800,
+          "median_hourly": 27.02,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 62100,
+          "range_low": 42800,
+          "range_high": 98300,
+          "median_hourly": 29.86,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 78800,
+          "range_low": 58800,
+          "range_high": 110600,
+          "median_hourly": 37.88,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 43300,
+          "range_low": 32100,
+          "range_high": 57800,
+          "median_hourly": 20.82,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "VA": {
+      "name": "Virginia",
+      "abbr": "VA",
+      "licensing": {
+        "body": "VA Dept of Agriculture & Consumer Services",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://www.vdacs.virginia.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 48800,
+          "range_low": 35400,
+          "range_high": 66900,
+          "median_hourly": 23.46,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 57300,
+          "range_low": 41400,
+          "range_high": 74100,
+          "median_hourly": 27.55,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 63200,
+          "range_low": 43600,
+          "range_high": 100200,
+          "median_hourly": 30.38,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 80300,
+          "range_low": 60000,
+          "range_high": 112700,
+          "median_hourly": 38.61,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 44100,
+          "range_low": 32700,
+          "range_high": 58900,
+          "median_hourly": 21.2,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "WA": {
+      "name": "Washington",
+      "abbr": "WA",
+      "licensing": {
+        "body": "WA State Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "2 yrs CEU requirement",
+        "reciprocity": "None",
+        "regulatory_url": "https://agr.wa.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 54600,
+          "range_low": 39600,
+          "range_high": 74900,
+          "median_hourly": 26.25,
+          "notes": "Seattle market pushes wages above state average; minimum wage $16.28/hr.",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 64100,
+          "range_low": 46400,
+          "range_high": 83000,
+          "median_hourly": 30.82,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 70800,
+          "range_low": 48800,
+          "range_high": 112100,
+          "median_hourly": 34.04,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 89900,
+          "range_low": 67100,
+          "range_high": 126100,
+          "median_hourly": 43.22,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 49400,
+          "range_low": 36600,
+          "range_high": 65900,
+          "median_hourly": 23.75,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "WV": {
+      "name": "West Virginia",
+      "abbr": "WV",
+      "licensing": {
+        "body": "WV Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Limited reciprocity",
+        "regulatory_url": "https://agriculture.wv.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 38900,
+          "range_low": 28200,
+          "range_high": 53400,
+          "median_hourly": 18.7,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 45700,
+          "range_low": 33100,
+          "range_high": 59200,
+          "median_hourly": 21.97,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 50500,
+          "range_low": 34800,
+          "range_high": 80000,
+          "median_hourly": 24.28,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 64100,
+          "range_low": 47800,
+          "range_high": 89900,
+          "median_hourly": 30.82,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 35200,
+          "range_low": 26100,
+          "range_high": 47000,
+          "median_hourly": 16.92,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "licensing": {
+        "body": "WI Dept of Agriculture Trade & Consumer Protection",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Some reciprocity",
+        "regulatory_url": "https://datcp.wi.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 45600,
+          "range_low": 33100,
+          "range_high": 62600,
+          "median_hourly": 21.92,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 53600,
+          "range_low": 38800,
+          "range_high": 69400,
+          "median_hourly": 25.77,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 59200,
+          "range_low": 40800,
+          "range_high": 93700,
+          "median_hourly": 28.46,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 75100,
+          "range_low": 56100,
+          "range_high": 105400,
+          "median_hourly": 36.11,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 41300,
+          "range_low": 30600,
+          "range_high": 55100,
+          "median_hourly": 19.86,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    },
+    "WY": {
+      "name": "Wyoming",
+      "abbr": "WY",
+      "licensing": {
+        "body": "WY Dept of Agriculture",
+        "license_required": true,
+        "continuing_education": "6 hrs/yr",
+        "reciprocity": "Reciprocity available",
+        "regulatory_url": "https://agriculture.wy.gov/"
+      },
+      "roles": {
+        "pest_control_technician": {
+          "label": "Pest Control Technician",
+          "median_annual": 39400,
+          "range_low": 28600,
+          "range_high": 54000,
+          "median_hourly": 18.94,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "route_manager": {
+          "label": "Route Manager",
+          "median_annual": 46300,
+          "range_low": 33400,
+          "range_high": 59800,
+          "median_hourly": 22.26,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "sales_inspector": {
+          "label": "Sales Inspector / Sales Rep",
+          "median_annual": 51000,
+          "range_low": 35200,
+          "range_high": 80900,
+          "median_hourly": 24.52,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "branch_manager": {
+          "label": "Branch Manager",
+          "median_annual": 64800,
+          "range_low": 48400,
+          "range_high": 91000,
+          "median_hourly": 31.15,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        },
+        "office_admin": {
+          "label": "Office / Customer Service Admin",
+          "median_annual": 35600,
+          "range_low": 26400,
+          "range_high": 47500,
+          "median_hourly": 17.12,
+          "notes": "",
+          "source": "BLS OEWS May 2024 + FieldRoutes/Payscale 2025",
+          "source_urls": [
+            "https://www.bls.gov/oes/current/oes372021.htm",
+            "https://www.fieldroutes.com/resources/pest-control-technician-salary"
+          ],
+          "last_updated": "March 2025"
+        }
+      }
+    }
+  }
+}
