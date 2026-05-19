@@ -6905,6 +6905,7 @@ window.__STARTUP_DATA__ = {
   <button class="tab-btn active" id="tab-pay">&#x1F4B0; Pay Data</button>
   <button class="tab-btn compliance-tab" id="tab-compliance">&#x2696;&#xFE0F; HR Compliance &amp; Legal</button>
   <button class="tab-btn startup-tab" id="tab-startup">&#x1F680; Start-Up &amp; Growth</button>
+  <button class="tab-btn competitors-tab" id="tab-competitors">&#x1F50D; Competitor Analysis</button>
 </nav>
 
 <div class="layout">
@@ -7163,6 +7164,211 @@ window.__STARTUP_DATA__ = {
 
       </div>
 
+      <!-- ── COMPETITOR ANALYSIS TAB CONTENT ── -->
+      <div id="content-competitors" class="tab-content">
+
+        <!-- Hero -->
+        <div class="ca-hero">
+          <div class="ca-hero-icon">&#x1F50D;</div>
+          <div class="ca-hero-info">
+            <h1>HR Companies — Competitive Analysis</h1>
+            <p>Deep-dive into the HR consulting landscape: who's winning, who's failing, and what SimplyHR can learn from both.</p>
+          </div>
+          <span class="badge" style="margin-left:auto;white-space:nowrap">May 2026</span>
+        </div>
+
+        <!-- Market Overview -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F4CA;</span>
+            <h3>Market Overview</h3>
+            <span class="ca-section-sub">Global HR Consulting Industry</span>
+          </div>
+          <div class="ca-market-grid">
+            <div class="ca-market-stat">
+              <div class="ca-market-label">Market Size 2025</div>
+              <div class="ca-market-value" id="ca-market-size-2025">$79B</div>
+            </div>
+            <div class="ca-market-stat">
+              <div class="ca-market-label">Market Size 2026</div>
+              <div class="ca-market-value ca-accent" id="ca-market-size-2026">$84B</div>
+            </div>
+            <div class="ca-market-stat">
+              <div class="ca-market-label">SMB Segment CAGR</div>
+              <div class="ca-market-value ca-accent2" id="ca-smb-cagr">9.25%</div>
+              <div class="ca-market-sub">through 2031</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Competitor Cards -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F3E2;</span>
+            <h3>Competitor Deep Dives</h3>
+            <span class="ca-section-sub">8 competitors analyzed</span>
+          </div>
+          <div class="ca-competitors-grid" id="ca-competitors-grid"></div>
+        </div>
+
+        <!-- Pricing Comparison Table -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F4B5;</span>
+            <h3>Pricing Comparison</h3>
+            <span class="ca-section-sub">Side-by-side competitor pricing</span>
+          </div>
+          <div class="ca-table-wrap">
+            <table class="ca-table">
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Pricing</th>
+                  <th>Model</th>
+                  <th>Transparency</th>
+                  <th>Entry Point</th>
+                </tr>
+              </thead>
+              <tbody id="ca-pricing-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Positioning Chart -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F4CD;</span>
+            <h3>Competitive Positioning Map</h3>
+            <span class="ca-section-sub">Where SimplyHR sits &amp; where it should aim</span>
+          </div>
+          <div class="ca-chart-wrap">
+            <canvas id="ca-positioning-canvas"></canvas>
+          </div>
+          <div class="ca-chart-legend">
+            <span class="ca-legend-item" style="--dot-color:#10b981">Insperity</span>
+            <span class="ca-legend-item" style="--dot-color:#ef4444">TriNet</span>
+            <span class="ca-legend-item" style="--dot-color:#f59e0b">Bambee</span>
+            <span class="ca-legend-item" style="--dot-color:#8b5cf6">Helios HR</span>
+            <span class="ca-legend-item" style="--dot-color:#ec4899">Red Clover</span>
+            <span class="ca-legend-item" style="--dot-color:#f97316">Gusto</span>
+            <span class="ca-legend-item" style="--dot-color:#0ea5e9">Paychex</span>
+            <span class="ca-legend-item" style="--dot-color:#14b8a6">DianaHR</span>
+            <span class="ca-legend-item" style="--dot-color:#6366f1">SimplyHR (Now)</span>
+            <span class="ca-legend-item" style="--dot-color:#22d3ee">SimplyHR (Target)</span>
+          </div>
+        </div>
+
+        <!-- Winners vs Losers -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x2696;&#xFE0F;</span>
+            <h3>Winners vs. Losers — Side by Side</h3>
+          </div>
+          <div class="ca-wl-grid">
+            <div class="ca-wl-col ca-wl-win">
+              <h4>&#x2705; What Winners Do Right</h4>
+              <table class="ca-wl-table">
+                <thead><tr><th>Category</th><th>Winning Strategy</th></tr></thead>
+                <tbody id="ca-winners-tbody"></tbody>
+              </table>
+            </div>
+            <div class="ca-wl-col ca-wl-lose">
+              <h4>&#x274C; What Losers Do Wrong</h4>
+              <table class="ca-wl-table">
+                <thead><tr><th>Category</th><th>Losing Behavior</th></tr></thead>
+                <tbody id="ca-losers-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Failure Patterns -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x26A0;&#xFE0F;</span>
+            <h3>Why HR Firms Fail</h3>
+            <span class="ca-section-sub">Universal failure patterns</span>
+          </div>
+          <div class="ca-failure-grid" id="ca-failure-patterns"></div>
+        </div>
+
+        <!-- 6 Deadly Sins -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F480;</span>
+            <h3>The 6 Deadly Sins of Failing HR Consultancies</h3>
+          </div>
+          <div class="ca-table-wrap">
+            <table class="ca-table ca-sins-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Sin</th>
+                  <th>What It Looks Like</th>
+                  <th>The Cost</th>
+                </tr>
+              </thead>
+              <tbody id="ca-sins-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Industry Benchmarks -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F4CF;</span>
+            <h3>Industry Benchmarks</h3>
+            <span class="ca-section-sub">Key metrics to track</span>
+          </div>
+          <div class="ca-benchmarks-grid">
+            <div class="ca-bm-card">
+              <div class="ca-bm-label">Client Acquisition Cost</div>
+              <div class="ca-bm-value" id="ca-bm-cac">$1,500–$3,000</div>
+              <div class="ca-bm-sub">Per new client</div>
+            </div>
+            <div class="ca-bm-card">
+              <div class="ca-bm-label">LTV:CAC Ratio</div>
+              <div class="ca-bm-value ca-accent" id="ca-bm-ltv">3:1+</div>
+              <div class="ca-bm-sub">Gold standard target</div>
+            </div>
+            <div class="ca-bm-card">
+              <div class="ca-bm-label">Client Retention Rate</div>
+              <div class="ca-bm-value" id="ca-bm-retention">73%–84%</div>
+              <div class="ca-bm-sub">Professional services avg</div>
+            </div>
+            <div class="ca-bm-card">
+              <div class="ca-bm-label">Billable Utilization</div>
+              <div class="ca-bm-value" id="ca-bm-utilization">70%–80%</div>
+              <div class="ca-bm-sub">Target efficiency</div>
+            </div>
+            <div class="ca-bm-card">
+              <div class="ca-bm-label">Gross Margin</div>
+              <div class="ca-bm-value ca-accent" id="ca-bm-margin">88%+</div>
+              <div class="ca-bm-sub">After direct costs</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recommendations -->
+        <div class="ca-section">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x1F680;</span>
+            <h3>Strategic Recommendations for SimplyHR</h3>
+          </div>
+          <div class="ca-recommendations-grid" id="ca-recommendations-grid"></div>
+        </div>
+
+        <!-- 30-Day Action Items -->
+        <div class="ca-section ca-section-actions">
+          <div class="ca-section-header">
+            <span class="ca-section-icon">&#x26A1;</span>
+            <h3>Quick-Win Action Items — Next 30 Days</h3>
+          </div>
+          <ol class="ca-action-list" id="ca-action-items"></ol>
+        </div>
+
+      </div>
+
     </div>
   </main>
 </div>
@@ -7170,5 +7376,6 @@ window.__STARTUP_DATA__ = {
 <script src="app.js"></script>
 <script src="compliance.js"></script>
 <script src="startup_compliance.js"></script>
+<script src="competitor_analysis.js"></script>
 </body>
 </html>
