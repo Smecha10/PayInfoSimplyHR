@@ -6906,6 +6906,7 @@ window.__STARTUP_DATA__ = {
   <button class="tab-btn compliance-tab" id="tab-compliance">&#x2696;&#xFE0F; HR Compliance &amp; Legal</button>
   <button class="tab-btn startup-tab" id="tab-startup">&#x1F680; Start-Up &amp; Growth</button>
   <button class="tab-btn competitors-tab" id="tab-competitors">&#x1F50D; Competitor Analysis</button>
+  <button class="tab-btn playbook-tab" id="tab-playbook">&#x1F4D6; Sales Playbook</button>
 </nav>
 
 <div class="layout">
@@ -7370,6 +7371,108 @@ window.__STARTUP_DATA__ = {
       </div>
 
     </div>
+
+      <!-- ── SALES PLAYBOOK TAB CONTENT ── -->
+      <div id="content-playbook" class="tab-content">
+
+        <!-- Hero -->
+        <div class="pb-hero">
+          <div class="pb-hero-icon">&#x1F4D6;</div>
+          <div class="pb-hero-info">
+            <h1>Sales Playbook</h1>
+            <p>8-channel sales execution system — proposals, BNI, LinkedIn, YouTube, social media, blog, website, and cold outreach. Updated May 2026.</p>
+          </div>
+          <span class="badge" style="margin-left:auto;white-space:nowrap">May 2026</span>
+        </div>
+
+        <!-- Key Stats -->
+        <div class="pb-stats-grid" id="pb-stats-grid"></div>
+
+        <!-- Pricing Tiers -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F4B0;</span>
+            <h3>Pricing &amp; Services — 2026</h3>
+            <span class="pb-section-sub">Real HR partnership. Predictable monthly pricing.</span>
+          </div>
+          <div class="pb-pricing-grid" id="pb-pricing-grid"></div>
+        </div>
+
+        <!-- Pricing Matrix -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F4CA;</span>
+            <h3>Full Pricing by Employee Count</h3>
+          </div>
+          <div class="ca-table-wrap">
+            <table class="ca-table">
+              <thead>
+                <tr>
+                  <th>Tier</th>
+                  <th>1–9 EE</th>
+                  <th>10–19</th>
+                  <th>20–34</th>
+                  <th>35–49</th>
+                  <th>50–99</th>
+                  <th>100–200</th>
+                </tr>
+              </thead>
+              <tbody id="pb-matrix-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Add-Ons -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F9E9;</span>
+            <h3>Add-Ons &amp; Project Work</h3>
+          </div>
+          <div class="pb-addons-grid" id="pb-addons-grid"></div>
+        </div>
+
+        <!-- Sales Channels -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F4E3;</span>
+            <h3>8-Channel Sales System</h3>
+            <span class="pb-section-sub">Click a channel to see the execution plan</span>
+          </div>
+          <div class="pb-channel-nav" id="pb-channel-nav"></div>
+          <div class="pb-channel-detail" id="pb-channel-detail"></div>
+        </div>
+
+        <!-- BNI Scripts -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F3A4;</span>
+            <h3>BNI 60-Second Scripts (Rotating Weekly)</h3>
+          </div>
+          <div class="pb-bni-scripts" id="pb-bni-scripts"></div>
+        </div>
+
+        <!-- Revenue Projections -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F4C8;</span>
+            <h3>Revenue Projections</h3>
+            <span class="pb-section-sub">Annual revenue by scenario</span>
+          </div>
+          <div class="ca-chart-wrap">
+            <canvas id="pb-revenue-canvas"></canvas>
+          </div>
+        </div>
+
+        <!-- 90-Day Launch Plan -->
+        <div class="pb-section">
+          <div class="pb-section-header">
+            <span class="pb-section-icon">&#x1F680;</span>
+            <h3>90-Day Launch Plan</h3>
+          </div>
+          <div class="pb-launch-plan" id="pb-launch-plan"></div>
+        </div>
+
+      </div>
   </main>
 </div>
 
@@ -7377,5 +7480,6 @@ window.__STARTUP_DATA__ = {
 <script src="compliance.js"></script>
 <script src="startup_compliance.js"></script>
 <script src="competitor_analysis.js"></script>
+<script src="sales_playbook.js"></script>
 </body>
 </html>
