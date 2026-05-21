@@ -575,3 +575,51 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg-primary);color
   .pb-channel-nav{gap:4px}
   .pb-ch-btn{padding:6px 10px;font-size:0.72rem}
 }
+
+/* ── Recommendation Cards ── */
+.pb-ch-recs{margin-top:20px;border-top:1px solid var(--border);padding-top:18px}
+.pb-ch-recs>h4{font-size:0.85rem;font-weight:700;color:var(--text-primary);margin-bottom:14px}
+.pb-rec-card{background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:12px;overflow:hidden;transition:border-color .2s}
+.pb-rec-card:hover{border-color:rgba(245,158,11,0.3)}
+.pb-rec-header{display:flex;align-items:center;gap:10px;padding:12px 16px;background:rgba(255,255,255,0.03);border-bottom:1px solid rgba(255,255,255,0.04)}
+.pb-rec-badge{font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 10px;border-radius:10px;white-space:nowrap}
+.pb-rec-badge[data-type="template"]{background:rgba(99,102,241,0.15);color:#818cf8}
+.pb-rec-badge[data-type="table"]{background:rgba(16,185,129,0.15);color:#34d399}
+.pb-rec-badge[data-type="sequence"]{background:rgba(245,158,11,0.15);color:#fbbf24}
+.pb-rec-badge[data-type="tip"]{background:rgba(59,130,246,0.15);color:#60a5fa}
+.pb-rec-title{font-size:0.88rem;font-weight:700;color:var(--text-primary)}
+.pb-rec-body{padding:16px}
+
+/* Code / template blocks */
+.pb-rec-code{background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.06);border-radius:6px;padding:16px;font-family:'Courier New',monospace;font-size:0.78rem;color:var(--text-secondary);line-height:1.6;white-space:pre-wrap;word-break:break-word;overflow-x:auto;margin:0}
+
+/* Inner tables */
+.pb-rec-table{width:100%;border-collapse:collapse;font-size:0.8rem}
+.pb-rec-table th{text-align:left;padding:8px 12px;background:rgba(255,255,255,0.03);color:var(--text-muted);font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border)}
+.pb-rec-table td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.04);color:var(--text-secondary);line-height:1.5}
+.pb-rec-table tr:hover td{background:rgba(255,255,255,0.02)}
+
+/* Lists inside recs */
+.pb-rec-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+.pb-rec-list li{font-size:0.82rem;color:var(--text-secondary);line-height:1.6;padding-left:4px}
+
+/* Script cards */
+.pb-rec-scripts{display:flex;flex-direction:column;gap:10px}
+.pb-rec-script{background:rgba(255,255,255,0.025);border:1px solid rgba(255,255,255,0.06);border-radius:var(--radius-sm);padding:14px 16px}
+.pb-rec-script strong{display:block;font-size:0.82rem;color:var(--text-primary);margin-bottom:6px}
+.pb-rec-script p{font-size:0.8rem;color:var(--text-secondary);line-height:1.6;margin:0;font-style:italic}
+
+/* Comparison columns (vs) */
+.pb-rec-compare{margin:0}
+.pb-rec-vs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pb-rec-vs-bad,.pb-rec-vs-good{padding:14px;border-radius:var(--radius-sm);font-size:0.8rem}
+.pb-rec-vs-bad{background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2)}
+.pb-rec-vs-good{background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.2)}
+.pb-rec-vs-bad strong{color:#f87171;display:block;margin-bottom:8px;font-size:0.78rem}
+.pb-rec-vs-good strong{color:#34d399;display:block;margin-bottom:8px;font-size:0.78rem}
+.pb-rec-vs ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:4px}
+.pb-rec-vs li{color:var(--text-secondary);font-size:0.78rem;line-height:1.5}
+
+@media (max-width:600px){
+  .pb-rec-vs{grid-template-columns:1fr}
+}
