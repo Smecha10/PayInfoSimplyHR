@@ -341,7 +341,7 @@ function tqDownload() {
 
   text += `${"═".repeat(60)}\n`;
   text += `SimplyHR Consulting | simplyhrconsulting.com\n`;
-  text += `austin@simplyhrconsulting.com\n`;
+  text += `austin@simplyhrconsulting.com | spencer@simplyhrconsulting.com\n`;
 
   const blob = new Blob([text], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
@@ -372,7 +372,7 @@ function tqEmail() {
 
   body += `---\nSimplyHR Consulting | simplyhrconsulting.com\naustin@simplyhrconsulting.com`;
 
-  window.location.href = `mailto:austin@simplyhrconsulting.com?subject=${subject}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:austin@simplyhrconsulting.com,spencer@simplyhrconsulting.com?subject=${subject}&body=${encodeURIComponent(body)}`;
 }
 
 // ── Wire into tab system ──
