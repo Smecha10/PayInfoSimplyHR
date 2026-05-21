@@ -623,3 +623,108 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg-primary);color
 @media (max-width:600px){
   .pb-rec-vs{grid-template-columns:1fr}
 }
+
+/* ══ TALENT ACQUISITION QUESTIONNAIRE TAB ══ */
+.tab-btn.active.questionnaire-tab{border-bottom-color:#06b6d4}
+
+/* Hero */
+.tq-hero{background:linear-gradient(135deg,rgba(6,182,212,0.12) 0%,rgba(59,130,246,0.08) 100%);border:1px solid rgba(6,182,212,0.4);border-radius:var(--radius);padding:24px 28px;display:flex;align-items:flex-start;gap:20px}
+.tq-hero-icon{font-size:3.5rem;line-height:1;min-width:80px;text-align:center}
+.tq-hero-info h1{font-size:1.5rem;font-weight:700;margin-bottom:4px}
+.tq-hero-info p{color:var(--text-secondary);font-size:0.875rem}
+
+/* Progress bar */
+.tq-progress-wrap{display:flex;align-items:center;gap:14px}
+.tq-progress-track{flex:1;height:6px;background:rgba(255,255,255,0.06);border-radius:3px;overflow:hidden}
+.tq-progress-fill{height:100%;background:linear-gradient(90deg,#06b6d4,#3b82f6);border-radius:3px;transition:width .4s ease}
+.tq-progress-label{font-size:0.75rem;font-weight:700;color:#06b6d4;white-space:nowrap}
+
+/* Step indicators */
+.tq-progress-bar{display:flex;gap:4px;flex-wrap:wrap}
+.tq-step{display:flex;align-items:center;gap:6px;padding:6px 12px;border-radius:var(--radius-sm);cursor:pointer;transition:all .2s;background:rgba(255,255,255,0.02);border:1px solid transparent}
+.tq-step:hover{background:rgba(255,255,255,0.05);border-color:rgba(6,182,212,0.2)}
+.tq-step.active{background:rgba(6,182,212,0.1);border-color:rgba(6,182,212,0.4)}
+.tq-step.done{opacity:0.7}
+.tq-step.done .tq-step-num{background:#10b981;color:#fff}
+.tq-step-num{width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;font-size:0.68rem;font-weight:800;color:var(--text-muted);flex-shrink:0}
+.tq-step.active .tq-step-num{background:#06b6d4;color:#fff}
+.tq-step-label{font-size:0.72rem;font-weight:600;color:var(--text-secondary);white-space:nowrap}
+
+/* Form container */
+.tq-form-container{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.tq-section-header{display:flex;align-items:center;gap:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.tq-section-icon{font-size:2rem}
+.tq-section-header h3{font-size:1.15rem;font-weight:700}
+.tq-section-header p{font-size:0.78rem;color:var(--text-muted);margin-top:2px}
+
+/* Fields */
+.tq-fields{display:flex;flex-direction:column;gap:20px}
+.tq-field label:first-child{display:block;font-size:0.85rem;font-weight:600;color:var(--text-primary);margin-bottom:8px;line-height:1.5}
+.tq-req{color:#ef4444;margin-left:2px}
+.tq-field input[type="text"],.tq-field textarea{width:100%;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;font-family:inherit;font-size:0.85rem;color:var(--text-primary);transition:border-color .2s;box-sizing:border-box}
+.tq-field input[type="text"]:focus,.tq-field textarea:focus{outline:none;border-color:#06b6d4;box-shadow:0 0 0 2px rgba(6,182,212,0.15)}
+.tq-field textarea{resize:vertical;min-height:70px}
+.tq-field input::placeholder,.tq-field textarea::placeholder{color:var(--text-muted)}
+
+/* Radio & checkbox options */
+.tq-options{display:flex;flex-direction:column;gap:6px}
+.tq-option{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:all .2s}
+.tq-option:hover{background:rgba(255,255,255,0.05);border-color:rgba(6,182,212,0.3)}
+.tq-option input[type="radio"],.tq-option input[type="checkbox"]{margin-top:2px;accent-color:#06b6d4;flex-shrink:0;width:16px;height:16px}
+.tq-option span{font-size:0.83rem;color:var(--text-secondary);line-height:1.5}
+.tq-option:has(input:checked){border-color:rgba(6,182,212,0.5);background:rgba(6,182,212,0.06)}
+.tq-option:has(input:checked) span{color:var(--text-primary)}
+
+/* Validation error */
+.tq-error{animation:tqShake .4s ease}
+.tq-error input,.tq-error textarea{border-color:#ef4444 !important;box-shadow:0 0 0 2px rgba(239,68,68,0.15) !important}
+@keyframes tqShake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}50%{transform:translateX(6px)}75%{transform:translateX(-4px)}}
+
+/* Navigation bar */
+.tq-nav-bar{display:flex;justify-content:space-between;align-items:center;padding-top:4px}
+.tq-nav-btn{padding:10px 24px;border-radius:var(--radius-sm);border:1px solid var(--border);background:rgba(255,255,255,0.04);color:var(--text-primary);font-family:inherit;font-size:0.85rem;font-weight:600;cursor:pointer;transition:all .2s}
+.tq-nav-btn:hover{background:rgba(255,255,255,0.08);border-color:rgba(6,182,212,0.3)}
+.tq-nav-next{background:linear-gradient(135deg,#06b6d4,#3b82f6);border-color:transparent;color:#fff;margin-left:auto}
+.tq-nav-next:hover{box-shadow:0 4px 16px rgba(6,182,212,0.3);transform:translateY(-1px)}
+.tq-nav-submit{background:linear-gradient(135deg,#10b981,#06b6d4);border-color:transparent;color:#fff;margin-left:auto}
+.tq-nav-submit:hover{box-shadow:0 4px 16px rgba(16,185,129,0.3);transform:translateY(-1px)}
+
+/* Results / Review */
+.tq-results{animation:tqFadeIn .4s ease}
+@keyframes tqFadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.tq-results-header{display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.tq-results-icon{font-size:2.5rem}
+.tq-results-header h2{font-size:1.3rem;font-weight:700}
+.tq-results-header p{font-size:0.85rem;color:var(--text-secondary);margin-top:4px}
+.tq-results-actions{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+.tq-action-btn{padding:10px 20px;border-radius:var(--radius-sm);border:1px solid var(--border);background:rgba(255,255,255,0.04);color:var(--text-primary);font-family:inherit;font-size:0.85rem;font-weight:600;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px}
+.tq-action-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.tq-action-save{border-color:rgba(16,185,129,0.4)}
+.tq-action-save:hover{background:rgba(16,185,129,0.1)}
+.tq-action-email{border-color:rgba(6,182,212,0.4)}
+.tq-action-email:hover{background:rgba(6,182,212,0.1)}
+.tq-action-edit{border-color:rgba(245,158,11,0.4)}
+.tq-action-edit:hover{background:rgba(245,158,11,0.1)}
+
+/* Result sections */
+.tq-result-section{margin-bottom:20px;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
+.tq-result-section h4{padding:12px 16px;background:rgba(255,255,255,0.03);font-size:0.88rem;font-weight:700;border-bottom:1px solid var(--border);margin:0}
+.tq-result-row{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.tq-result-row:last-child{border-bottom:none}
+.tq-result-q{font-size:0.78rem;color:var(--text-muted);margin-bottom:4px;font-weight:600}
+.tq-result-a{font-size:0.85rem;color:var(--text-primary);line-height:1.6;white-space:pre-wrap}
+.tq-empty{color:var(--text-muted);font-style:italic;font-size:0.8rem}
+
+/* Responsive */
+@media (max-width:900px){
+  .tq-hero{flex-direction:column;gap:12px}
+  .tq-progress-bar{gap:2px}
+  .tq-step-label{display:none}
+}
+@media (max-width:600px){
+  .tq-form-container{padding:16px}
+  .tq-nav-bar{flex-direction:column;gap:8px}
+  .tq-nav-btn{width:100%;text-align:center}
+  .tq-results-actions{flex-direction:column}
+  .tq-action-btn{width:100%;justify-content:center}
+}

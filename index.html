@@ -6907,6 +6907,7 @@ window.__STARTUP_DATA__ = {
   <button class="tab-btn startup-tab" id="tab-startup">&#x1F680; Start-Up &amp; Growth</button>
   <button class="tab-btn competitors-tab" id="tab-competitors">&#x1F50D; Competitor Analysis</button>
   <button class="tab-btn playbook-tab" id="tab-playbook">&#x1F4D6; Sales Playbook</button>
+  <button class="tab-btn questionnaire-tab" id="tab-questionnaire">&#x1F4CB; TA Questionnaire</button>
 </nav>
 
 <div class="layout">
@@ -7473,6 +7474,43 @@ window.__STARTUP_DATA__ = {
         </div>
 
       </div>
+
+      <!-- ── TALENT ACQUISITION QUESTIONNAIRE TAB ── -->
+      <div id="content-questionnaire" class="tab-content">
+
+        <!-- Hero -->
+        <div class="tq-hero">
+          <div class="tq-hero-icon">&#x1F4CB;</div>
+          <div class="tq-hero-info">
+            <h1>Talent Acquisition Questionnaire</h1>
+            <p>iSolved / ApplicantPro Discovery &amp; Configuration Intake</p>
+          </div>
+          <span class="badge" style="margin-left:auto;white-space:nowrap">iSolved TA</span>
+        </div>
+
+        <!-- Progress -->
+        <div class="tq-progress-wrap">
+          <div class="tq-progress-track">
+            <div class="tq-progress-fill" id="tq-progress-pct" style="width:0%"></div>
+          </div>
+          <span class="tq-progress-label" id="tq-progress-text">0% complete</span>
+        </div>
+
+        <!-- Step Progress -->
+        <div class="tq-progress-bar" id="tq-progress-bar"></div>
+
+        <!-- Form Area -->
+        <div class="tq-form-container" id="tq-form-area"></div>
+
+        <!-- Navigation -->
+        <div class="tq-nav-bar" id="tq-nav-bar">
+          <button class="tq-nav-btn tq-nav-prev" id="tq-btn-prev" onclick="tqPrev()">&larr; Previous</button>
+          <button class="tq-nav-btn tq-nav-next" id="tq-btn-next" onclick="tqNext()">Next &rarr;</button>
+          <button class="tq-nav-btn tq-nav-submit" id="tq-btn-submit" onclick="tqSubmit()" style="display:none">&#x2705; Submit Questionnaire</button>
+        </div>
+
+      </div>
+
   </main>
 </div>
 
@@ -7481,5 +7519,6 @@ window.__STARTUP_DATA__ = {
 <script src="startup_compliance.js"></script>
 <script src="competitor_analysis.js"></script>
 <script src="sales_playbook.js"></script>
+<script src="questionnaire.js"></script>
 </body>
 </html>
