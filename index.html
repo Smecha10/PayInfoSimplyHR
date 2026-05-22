@@ -7386,7 +7386,15 @@ window.__STARTUP_DATA__ = {
           <span class="badge" style="margin-left:auto;white-space:nowrap">May 2026</span>
         </div>
 
-        <!-- Key Stats -->
+        <!-- Playbook Sub-Navigation -->
+        <div class="pb-sub-nav">
+          <button class="pb-sub-btn active" id="pb-btn-main" onclick="switchPbView('main')">&#x1F4CA; 8-Channel System</button>
+          <button class="pb-sub-btn" id="pb-btn-austin" onclick="switchPbView('austin')">&#x1F4D8; Austin's Playbook Scripts</button>
+        </div>
+
+        <!-- VIEW 1: 8-CHANNEL SYSTEM (Original) -->
+        <div id="pb-view-main">
+          <!-- Key Stats -->
         <div class="pb-stats-grid" id="pb-stats-grid"></div>
 
         <!-- Pricing Tiers -->
@@ -7472,6 +7480,17 @@ window.__STARTUP_DATA__ = {
           </div>
           <div class="pb-launch-plan" id="pb-launch-plan"></div>
         </div>
+        </div> <!-- End View 1 -->
+
+        <!-- VIEW 2: AUSTIN'S PLAYBOOK (PDF CONTENT) -->
+        <div id="pb-view-austin" style="display:none">
+          <div class="ap-container">
+            <!-- Sidebar Navigation for Austin's Playbook -->
+            <div class="ap-sidebar" id="ap-sidebar"></div>
+            <!-- Main Content Area for Scripts -->
+            <div class="ap-content" id="ap-content"></div>
+          </div>
+        </div> <!-- End View 2 -->
 
       </div>
 
@@ -7519,6 +7538,7 @@ window.__STARTUP_DATA__ = {
 <script src="startup_compliance.js"></script>
 <script src="competitor_analysis.js"></script>
 <script src="sales_playbook.js"></script>
+<script src="austins_playbook.js"></script>
 <script src="questionnaire.js"></script>
 </body>
 </html>
