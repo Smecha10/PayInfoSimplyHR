@@ -29,6 +29,7 @@
       var h = Array.prototype.map.call(new Uint8Array(buf), function (b) { return ("0" + b.toString(16)).slice(-2); }).join("");
       if (h === GATE_HASH) {
         try { sessionStorage.setItem(KEY, h); sessionStorage.setItem("payinfo-pin", v); } catch (e) {}
+        if (window.__leadsInitRan === false && typeof initLeads === "function") { try { initLeads(); } catch (e) {} }
         var o = document.getElementById("gate-overlay");
         if (o) o.remove();
       } else {

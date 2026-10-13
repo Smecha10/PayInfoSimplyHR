@@ -4,8 +4,16 @@ let leadsShown = 0;        // progressive render marker
 const LEADS_PAGE = 200;
 const LEAD_STATE = { q: "", st: "", src: "", contactOnly: false, webOnly: false };
 
+let __leadsInitRan = false;
 async function initLeads() {
+  if (__leadsInitRan) return;
+  __leadsInitRan = true;
   document.getElementById("tab-leads").addEventListener("click", () => switchTabLeads("leads"));
+  // wait for the gate (up to ~30s) - data fetch/decrypt needs the access code
+  for (let i = 0; i < 120; i++) {
+    try { if (sessionStorage.getItem("payinfo-pin")) break; } catch (e) {}
+    await new Promise(r => setTimeout(r, 250));
+  }
   try {
     const res = await fetch("leads_data.enc");
     if (!res.ok) throw new Error("HTTP " + res.status);
@@ -25,8 +33,11 @@ async function initLeads() {
     const text = await new Response(stream).text();
     LEADS = JSON.parse(text).leads;
   } catch (e) {
-    document.getElementById("leads-body").innerHTML =
-      `<div class="card" style="color:#f87171">Could not load leads: ${e.message}</div>`;
+    const target = document.getElementById("leads-rows")
+      || document.getElementById("leads-body")
+      || document.getElementById("content-leads");
+    if (target) target.innerHTML = `<div class="card" style="color:#f87171">Could not load leads: ${e.message}</div>`;
+    __leadsInitRan = false;  // allow retry (e.g. Unlock pressed mid-load)
     return;
   }
   buildLeadStateSelect();
