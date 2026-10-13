@@ -6,6 +6,8 @@
   <title>Pest Control Dashboard — SimplyHR</title>
   <meta name="description" content="Pay data, HR compliance, and startup employee thresholds for pest control roles across all 50 U.S. states."/>
   <link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="gate.css"/>
+<script src="gate.js"></script>
 </head>
 <body>
 
@@ -6908,6 +6910,7 @@ window.__STARTUP_DATA__ = {
   <button class="tab-btn competitors-tab" id="tab-competitors">&#x1F50D; Competitor Analysis</button>
   <button class="tab-btn playbook-tab" id="tab-playbook">&#x1F4D6; Sales Playbook</button>
   <button class="tab-btn questionnaire-tab" id="tab-questionnaire">&#x1F4CB; TA Questionnaire</button>
+  <button class="tab-btn leads-tab" id="tab-leads">&#x1F4E1; Leads</button>
 </nav>
 
 <div class="layout">
@@ -7530,6 +7533,28 @@ window.__STARTUP_DATA__ = {
 
       </div>
 
+      <div id="content-leads" class="tab-content">
+        <div class="leads-toolbar">
+          <input id="leads-search" class="leads-input" type="text" placeholder="Search name, city, owner..." autocomplete="off"/>
+          <select id="leads-state" class="leads-input"><option value="">All states</option></select>
+          <select id="leads-source" class="leads-input"><option value="">All sources</option></select>
+          <button id="leads-contact-toggle" class="leads-toggle">Has phone/email</button>
+          <button id="leads-web-toggle" class="leads-toggle">Has website</button>
+          <button id="leads-csv" class="leads-toggle leads-csv-btn">Export Excel</button>
+        </div>
+        <div class="leads-meta">
+          <span id="leads-summary" class="leads-chips"></span>
+          <span id="leads-count" class="leads-count"></span>
+        </div>
+        <div class="card leads-table-card">
+          <table class="leads-table">
+            <thead><tr><th>Name</th><th>Location</th><th>Phone</th><th>Email</th><th>Website</th><th>Source</th></tr></thead>
+            <tbody id="leads-rows"></tbody>
+          </table>
+        </div>
+        <button id="leads-more" class="leads-more" style="display:none"></button>
+      </div>
+
   </main>
 </div>
 
@@ -7540,5 +7565,7 @@ window.__STARTUP_DATA__ = {
 <script src="sales_playbook.js"></script>
 <script src="austins_playbook.js"></script>
 <script src="questionnaire.js"></script>
+<script src="leads.js"></script>
+<script src="xlsx.full.min.js"></script>
 </body>
 </html>

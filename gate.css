@@ -1,0 +1,14 @@
+/* ── Access gate overlay (2026-10-13) ── */
+#gate-overlay{position:fixed;inset:0;z-index:99999;background:var(--bg-primary);display:flex;align-items:center;justify-content:center}
+.gate-wrap{width:100%;max-width:380px;padding:20px}
+.gate-card{background:var(--bg-secondary);border:1px solid var(--border);border-radius:14px;padding:36px 30px;text-align:center}
+.gate-logo{font-size:1.5rem;font-weight:300;letter-spacing:.14em;color:var(--text-primary)}
+.gate-logo span b{font-weight:800}
+.gate-sub{margin-top:6px;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
+.gate-label{margin:28px 0 12px;font-size:.8rem;color:var(--text-secondary)}
+.gate-row{display:flex;gap:10px}
+.gate-row input{flex:1;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:12px 14px;font-size:1.05rem;letter-spacing:.3em;text-align:center;color:var(--text-primary);font-family:inherit}
+.gate-row input:focus{outline:none;border-color:var(--border-active)}
+.gate-row button{background:var(--accent);border:none;border-radius:8px;padding:12px 18px;font-weight:700;font-size:.85rem;color:#06281c;cursor:pointer;font-family:inherit}
+.gate-row button:hover{filter:brightness(1.08)}
+.gate-err{min-height:20px;margin-top:10px;font-size:.78rem;color:#f87171}
